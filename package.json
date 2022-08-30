@@ -1,6 +1,6 @@
 {
   "name": "openseasales",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Track OpenSea NFT sales as they happen without the OpenSea API ",
   "main": "index.js",
   "scripts": {

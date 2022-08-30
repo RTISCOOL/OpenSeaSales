@@ -166,13 +166,3 @@ var OpenSeaSales = (options = {}) => {
   module.exports = OpenSeaSales;
   
   
-  var sales = OpenSeaSales({
-    provider:
-      "https://neat-nameless-morning.quiknode.pro/172de86471ae8b90100340212f3bb082f1c4e73d/",
-    interval: 1500,
-    //token: "0x0000000000000000000000000000000000000000",
-  });
-  sales.on("sale", (sale) => {
-    console.log(sale);
-  });
-  
